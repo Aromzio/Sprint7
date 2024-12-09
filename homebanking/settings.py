@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'prestamos.apps.PrestamosConfig',
     'sucursal.apps.SucursalConfig',
     'tarjetas.apps.TarjetasConfig',
+    'login',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+    
 ROOT_URLCONF = 'homebanking.urls'
 
 TEMPLATES = [
